@@ -1,0 +1,314 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+#app {
+    width:100%;
+    height:100%;
+}
+
+#app.true {
+    top:20px;
+    left:0;
+    right:0;
+    /*bottom:20px;*/
+    bottom:0;
+    position: absolute;
+    width:auto;
+    height:auto;
+}
+
+.statusbar-overlay {
+    background: rgba(0, 0, 0, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.navbar {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.82) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(10px) !important;
+
+}
+
+.navbar-inner .center {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar::after {
+    width: 0px;
+}
+
+.tabbar::before {
+    width: 0px;
+}
+
+.tabbar {
+    background-color: rgba(255, 255, 255, 0.82) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.content-block {
+    color: #333 !important;
+}
+
+.featured-header {
+    margin-top: 32px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0px;
+}
+
+.featured-title {
+    margin: 0px;
+    font-size: 32px;
+}
+
+i.ion-close-round {
+    width: 32px;
+    height: 30px;
+}
+
+.acrd1:active {
+    border-radius: 15px;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.featured-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.acrd1 .acrd1-footer {
+    margin-top: -4px;
+    background-color: rgba(255, 255, 255, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 15px 15px;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+
+.acrd1-footer::before {
+    width: 0px;
+}
+
+.indigohub-top {
+    height: 256px;
+    width: 100%;
+    /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+    background-color: #fff;
+    text-align: center;
+}
+
+.indigohub-icon {
+    margin-top: 40px;
+    border-radius: 21.5%;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+}
+
+.app-icon-install {
+    border-radius: 21.5%;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.indigohub-footer {
+    position: absolute;
+    display: block;
+    top: 256px;
+    height: 44px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 44px;
+    color: #fff;
+}
+
+.app-icon {
+    border-radius: 23.5%;
+    width: 44px;
+}
+
+.layout-white .searchbar {
+    margin-top: -44px;
+    height: 88px;
+    padding-top: 44px;
+    background-color: rgba(255, 255, 255, 0.82);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.layout-white .searchbar::after {
+    width: 0px;
+}
+
+.no-shadow {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.searchbar input[type=search] {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.categories-list {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width: 350px) {
+    .row.no-gutter .col-50 {
+        width: 100% !important;
+    }
+}
+
+.ScreenshotsPanel {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.ScreenshotsPanel img {
+    display: inline-block;
+    margin: 2%;
+    border-radius: 13px;
+    box-shadow: 0px 1px 2px #aaa;
+    width: auto;
+    max-height: 440px;
+}
+
+.nav-glyph {
+    width: 44px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.launchscreen {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+}
+
+.launchscreen img {
+    vertical-align: middle;
+}
+
+
+i.ion-ios-close-outline {
+    width: 30px;
+    height: 30px;
+}
+/* Dark Mode */
+
+.layout-dark .page {
+    background: #333;
+    color: #ddd;
+}
+
+.layout-dark .navbar {
+    background: rgba(51, 51, 51, .82);
+    background-color: rgba(51, 51, 51, .82) !important;
+}
+
+.layout-dark .acrd1 .acrd1-footer {
+    background: #2a2a2a;
+    color: #bbb;
+}
+
+.layout-dark .tabbar {
+    background-color: rgba(51, 51, 51, .82) !important;
+    background: rgba(51, 51, 51, .82);
+}
+
+.layout-dark .indigohub-top {
+    background: #222;
+}
+
+.layout-dark .indigohub-icon {
+    box-shadow: 0px 1px 10px #111;
+}
+
+.layout-dark .list-block ul,
+.list-block.layout-dark ul {
+    background: #2a2a2a;
+}
+
+.layout-dark .acrd1 {
+    background: #2a2a2a;
+}
+
+.layout-dark .content-block {
+    color: #ccc !important;
+}
+
+.layout-dark .content-block-inner {
+    background: #2a2a2a;
+}
+
+.layout-dark .searchbar {
+    background-color: #2a2a2a !important;
+}
+
+.layout-dark .searchbar:after {
+    background-color: #2a2a2a;
+}
+
+.layout-dark .searchbar input[type=search] {
+    color: #aaa;
+}
+
+
+.layout-dark .tabbar a:not(.active) {
+    color: #888;
+}
+
+.layout-dark .tabbar a.active {
+    color: #ddd;
+}
+
+.layout-dark .nav-glyph {
+    color: #ddd;
+}
+
+.layout-dark.theme-white .button.button-fill {
+    background: #007aff;
+}
+
+.layout-dark div.list-block>ul>a {
+    color: #ddd !important;
+}
+
+.layout-dark .statusbar-overlay {
+    background: rgba(51, 51, 51, 1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
